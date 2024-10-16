@@ -11,7 +11,7 @@ global.resolutions = [
 		type: "Average Monitor (1920 x 1080, 16:9)"
 	},
 	{
-		width: 960,
+		width: 720,
 		height: 540,
 		type: "Average Monitor (1440 x 1080, 4:3)"
 	},
