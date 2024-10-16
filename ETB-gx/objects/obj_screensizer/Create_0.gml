@@ -16,6 +16,11 @@ global.resolutions = [
 		type: "Average Monitor (1440 x 1080, 4:3)"
 	},
 	{
+		width: 1280,
+		height: 540,
+		type: "Ultra-Widescreen (2560 x 1080, 21:9)"
+	},
+	{
 		width: 684,
 		height: 384,
 		type: "Chromebook (1366 x 768, 16:9)"
