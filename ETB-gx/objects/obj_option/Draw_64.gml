@@ -1,4 +1,4 @@
-draw_set_color(c_ltgray);
+draw_set_color(c_gray);
 if (global.enable_shaders) shader_set(shdr_wind);
 draw_sprite_tiled(normalT_clouds, 0, (current_time * 0.001 * 60) * 0.5, 0);
 if (global.enable_shaders) shader_reset();

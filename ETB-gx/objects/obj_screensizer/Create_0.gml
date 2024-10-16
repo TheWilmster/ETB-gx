@@ -11,14 +11,19 @@ global.resolutions = [
 		type: "Average Monitor (1920 x 1080, 16:9)"
 	},
 	{
-		width: 512,
-		height: 384,
-		type: "Windows 11 Tablet (1024 x 768, 4:3)"
+		width: 960,
+		height: 540,
+		type: "Average Monitor (1440 x 1080, 4:3)"
 	},
 	{
 		width: 684,
 		height: 384,
 		type: "Chromebook (1366 x 768, 16:9)"
+	},
+	{
+		width: 512,
+		height: 384,
+		type: "Tablet (1024 x 768, 4:3)"
 	},
 ];
 global.resolution_index = 0;

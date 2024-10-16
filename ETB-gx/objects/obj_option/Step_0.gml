@@ -59,13 +59,14 @@ if (key_jump) {
 			global.vsync = false;
 			display_reset(global.antialiasing, global.vsync);
 			options = [
-				["Resolution", 0],
-				["Screen Scale", 1],
-				["Anti-Aliasing", true],
-				["Fullscreen", false],
-				["Screen Shake", true],
-				["VSYNC", false],
-				["Reset To Defaults", 0]
+				["Resolution", global.resolution_index],
+				["Screen Scale", global.screenscale],
+				["Anti-Aliasing", global.antialiasing],
+				["Fullscreen", global.fullscreen],
+				["Screen Shake", global.screenshake],
+				["VSYNC", global.vsync],
+				["Disable Shaders", !global.enable_shaders],
+				["Reset To Defaults", undefined]
 			];
 			break;
 	}
