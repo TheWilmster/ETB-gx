@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Early-Test-Build-GX",
+  "%Name":"ETB-gx",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -86,7 +86,7 @@
   "MetaData":{
     "IDEVersion":"2024.8.1.171",
   },
-  "name":"Early-Test-Build-GX",
+  "name":"ETB-gx",
   "resources":[
     {"id":{"name":"font0","path":"fonts/font0/font0.yy",},},
     {"id":{"name":"readme","path":"notes/readme/readme.yy",},},
