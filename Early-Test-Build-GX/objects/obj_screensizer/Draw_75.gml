@@ -1,0 +1,12 @@
+draw_set_font(font0);
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_alpha(0.5);
+var str = string_concat("FPS: ", fps, "\nGAME LOGIC FPS: ", fps_real);
+var width = 220;
+var yy = 2;
+if (showing_debug_overlay) yy = 20;
+if (string_width(str) > width) width = string_width(str);
+draw_roundrect_color_ext(2, yy, width, 40 + yy, 10, 10, c_black, c_black, false);
+draw_set_alpha(1);
+draw_text_ext_transformed(4, yy - 4, str, -1, -1, global.screenscale, global.screenscale, 0);
