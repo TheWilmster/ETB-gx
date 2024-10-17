@@ -2,7 +2,7 @@ if (instance_exists(obj_option)) exit;
 
 if (pause && sprite_exists(application_sprite)) draw_sprite(application_sprite, 0, 0, 0);
 draw_set_alpha(pause_alpha * 0.5);
-draw_rectangle_color(0, 0, display_get_gui_width(), display_get_gui_height(), c_black, c_black, c_black, c_black, false);
+draw_rectangle_color(0, 0, SCALED_WIDTH, SCALED_HEIGHT, c_black, c_black, c_black, c_black, false);
 draw_set_alpha(pause_alpha);
 draw_sprite_tiled(spr_pizzacollect, 0, floor(current_time * 0.001 * 60), wave(-256, 256, 5, 0));
 draw_set_font(font0)

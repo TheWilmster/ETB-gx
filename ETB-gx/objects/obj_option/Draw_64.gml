@@ -1,7 +1,7 @@
-draw_set_color(c_gray);
-if (global.enable_shaders) shader_set(shdr_wind);
 draw_sprite_tiled(normalT_clouds, 0, (current_time * 0.001 * 60) * 0.5, 0);
-if (global.enable_shaders) shader_reset();
+draw_set_alpha(0.5);
+draw_rectangle_color(0, 0, SCALED_WIDTH, SCALED_HEIGHT, c_black, c_black, c_black, c_black, false);
+draw_set_alpha(1);
 draw_set_color(c_white);
 for (var i = 0; i < array_length(options); i++) {
 	var str = options[i][0];

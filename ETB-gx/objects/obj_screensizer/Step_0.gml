@@ -18,8 +18,8 @@ if (view_get_wport(0) != SCALED_WIDTH || view_get_hport(0) != SCALED_HEIGHT) {
 if (surface_get_width(application_surface) != SCALED_WIDTH || surface_get_height(application_surface) != SCALED_HEIGHT) {
 	surface_resize(application_surface, SCALED_WIDTH, SCALED_HEIGHT);
 }
-if (os_type == os_gxgames) {
+//if (os_type == os_gxgames) {
 	if (window_get_width() != SCALED_WIDTH || window_get_height() != SCALED_HEIGHT) {
 		window_set_size(SCALED_WIDTH, SCALED_HEIGHT);
 	}
-}
+//}
